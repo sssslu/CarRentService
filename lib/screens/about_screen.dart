@@ -17,13 +17,13 @@ class AboutScreen extends StatelessWidget {
           children: [
             Image.asset(
               'assets/cars.png',
-              height: 180,
+              height: 300,
               fit: BoxFit.cover,
             ),
             const SizedBox(height: 20),
             Text(
               "RS Corp. Car Rent Service",
-              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold,color: Colors.green,),
             ),
             const SizedBox(height: 12),
             Text(
@@ -33,7 +33,7 @@ class AboutScreen extends StatelessWidget {
             ),
             const SizedBox(height: 30),
             ListTile(
-              leading: const Icon(Icons.storefront),
+              leading: const Icon(Icons.call),
               title: Text(t.aboutContactBranch),
             ),
             ListTile(
