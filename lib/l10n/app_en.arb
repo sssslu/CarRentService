@@ -1,0 +1,15 @@
+{
+  "carList": "Vehicle List",
+  "location": "Location",
+  "about": "About Us",
+  "language": "Language",
+  "rentGuide": "How to Rent",
+  "rentStep0Title": "0. Scan QR Code",
+  "rentStep0Desc": "Check vehicle info using a QR code.",
+  "rentStep1Title": "1. Visit Rental Location",
+  "rentStep1Desc": "Visit the rental site and consult with staff.\nID and license verification is required before choosing a vehicle.",
+  "rentStep2Title": "2. Fill Out Contract",
+  "rentStep2Desc": "Fill out a simple rental agreement.\nInsurance options can be selected here.",
+  "rentStep3Title": "3. Vehicle Handover & Safety Briefing",
+  "rentStep3Desc": "Check the vehicle exterior and fuel level.\nListen to instructions for safe use."
+}

@@ -1,0 +1,15 @@
+{
+  "carList": "Lista e Automjeteve",
+  "location": "Vendndodhja",
+  "about": "Rreth Nesh",
+  "language": "Gjuha",
+  "rentGuide": "Si të Merrni me Qira",
+  "rentStep0Title": "0. Skanoni Kodin QR",
+  "rentStep0Desc": "Shikoni informacionin për automjetin përmes kodit QR.",
+  "rentStep1Title": "1. Vizitoni Agjencinë e Qirasë",
+  "rentStep1Desc": "Vizitoni vendndodhjen dhe konsultohuni me stafin.\nNevojitet verifikim i ID-së dhe patentës përpara përzgjedhjes së automjetit.",
+  "rentStep2Title": "2. Plotësoni Kontratën",
+  "rentStep2Desc": "Plotësoni një kontratë të thjeshtë qiraje.\nOpsionet e sigurimit mund të zgjidhen këtu.",
+  "rentStep3Title": "3. Dorëzimi i Mjetit dhe Udhëzimet",
+  "rentStep3Desc": "Kontrolloni gjendjen e jashtme dhe nivelin e karburantit.\nMerrni udhëzime për përdorim të sigurt."
+}
