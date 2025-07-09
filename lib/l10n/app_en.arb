@@ -11,5 +11,10 @@
   "rentStep2Title": "2. Fill Out Contract",
   "rentStep2Desc": "Fill out a simple rental agreement.\nInsurance options can be selected here.",
   "rentStep3Title": "3. Vehicle Handover & Safety Briefing",
-  "rentStep3Desc": "Check the vehicle exterior and fuel level.\nListen to instructions for safe use."
+  "rentStep3Desc": "Check the vehicle exterior and fuel level.\nListen to instructions for safe use.",
+  "openInGoogleMaps": "Open in Google Maps",
+  "locationDirections": "From the airport, walk 100m left → Opposite the bus terminal\nTurn right at the alley next to the red sign → Walk 50m\n1st floor of the building on the right - Car Rent Service sign",
+  "aboutDescription": "We are a car rental service based in Tirana, Albania.\nYou can easily check and rent vehicles at our local branch,\nand we plan to offer online reservation via app in the future.",
+  "aboutContactBranch": "Contact Local Branch",
+  "aboutAdminSystem": "Admin Vehicle Management System"
 }

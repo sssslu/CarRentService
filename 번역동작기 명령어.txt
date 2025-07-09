@@ -1,0 +1,2 @@
+arb 파일 수정하고 기존 dart 로직 수정후
+flutter gen-l10n

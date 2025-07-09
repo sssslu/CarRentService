@@ -46,4 +46,19 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get rentStep3Desc => '차량 외관과 연료 상태를 확인하고,\n사용 시 주의사항에 대해 안내받습니다.';
+
+  @override
+  String get openInGoogleMaps => 'Google Map에서 열기';
+
+  @override
+  String get locationDirections => '공항 도착 후 좌측으로 100m 이동 → 버스터미널 맞은편\n빨간 간판 옆 골목으로 우회전 후 직진 50m\n오른편 건물 1층 Car Rent Service 간판';
+
+  @override
+  String get aboutDescription => '저희는 알바니아 티라나 지역을 기반으로 한 차량 대여 서비스입니다.\n현지 오프라인 대여소에서 간편하게 차량을 확인하고 계약할 수 있으며,차후 앱을 통한 온라인 예약 기능도 제공할 예정입니다.';
+
+  @override
+  String get aboutContactBranch => '대여소 바로 연락하기';
+
+  @override
+  String get aboutAdminSystem => '관리자 차량 등록 시스템';
 }

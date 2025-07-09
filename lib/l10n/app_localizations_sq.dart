@@ -46,4 +46,19 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get rentStep3Desc => 'Kontrolloni gjendjen e jashtme dhe nivelin e karburantit.\nMerrni udhëzime për përdorim të sigurt.';
+
+  @override
+  String get openInGoogleMaps => 'Hape në Google Maps';
+
+  @override
+  String get locationDirections => 'Nga aeroporti ecni 100m majtas → Përballë terminalit të autobusëve\nKthehuni djathtas tek rruga ngjitur me tabelën e kuqe → Ecni 50m\nKati i parë i ndërtesës në të djathtë - tabela Car Rent Service';
+
+  @override
+  String get aboutDescription => 'Ne jemi një shërbim me qira makinash me bazë në Tiranë, Shqipëri.\nMund të kontrolloni dhe merrni me qira automjete në degën tonë lokale,\ndhe së shpejti do të ofrojmë rezervime online përmes aplikacionit.';
+
+  @override
+  String get aboutContactBranch => 'Kontakto Degën Lokale';
+
+  @override
+  String get aboutAdminSystem => 'Sistemi i Regjistrimit të Automjeteve për Administratorët';
 }

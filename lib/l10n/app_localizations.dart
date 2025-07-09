@@ -174,6 +174,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Check the vehicle exterior and fuel level.\nListen to instructions for safe use.'**
   String get rentStep3Desc;
+
+  /// No description provided for @openInGoogleMaps.
+  ///
+  /// In en, this message translates to:
+  /// **'Open in Google Maps'**
+  String get openInGoogleMaps;
+
+  /// No description provided for @locationDirections.
+  ///
+  /// In en, this message translates to:
+  /// **'From the airport, walk 100m left → Opposite the bus terminal\nTurn right at the alley next to the red sign → Walk 50m\n1st floor of the building on the right - Car Rent Service sign'**
+  String get locationDirections;
+
+  /// No description provided for @aboutDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'We are a car rental service based in Tirana, Albania.\nYou can easily check and rent vehicles at our local branch,\nand we plan to offer online reservation via app in the future.'**
+  String get aboutDescription;
+
+  /// No description provided for @aboutContactBranch.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact Local Branch'**
+  String get aboutContactBranch;
+
+  /// No description provided for @aboutAdminSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'Admin Vehicle Management System'**
+  String get aboutAdminSystem;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
