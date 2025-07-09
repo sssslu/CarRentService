@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/locale_provider.dart';
-import '../l10n/app_localizations.dart'; // 로컬라이제이션 import
+import '../l10n/app_localizations.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   Widget _buildDivider() => const Divider(thickness: 0.6);
-  Widget _buildWDivider() => const Divider(thickness: 0.6, color: Colors.white,);
+  Widget _buildWDivider() => const Divider(thickness: 0.6, color: Colors.white);
 
   Widget _buildMenuItem(String text, VoidCallback onTap) {
     return Column(
@@ -45,31 +45,44 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             _buildWDivider(),
-            Text(
-              '${local.language}:',
-              style: const TextStyle(fontSize: 16),
-            ),
-            DropdownButton<Locale>(
-              value: provider.locale,
-              onChanged: (Locale? newLocale) {
-                if (newLocale != null) {
-                  provider.setLocale(newLocale);
-                }
-              },
-              items: const [
-                DropdownMenuItem(
-                  value: Locale('ko'),
-                  child: Text('한국어'),
+            const SizedBox(height: 8),
+            DropdownButtonHideUnderline(
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey.shade400),
+                  borderRadius: BorderRadius.circular(8),
+                  color: Colors.white,
                 ),
-                DropdownMenuItem(
-                  value: Locale('en'),
-                  child: Text('English'),
+                child: DropdownButton<Locale>(
+                  value: provider.locale,
+                  icon: const Icon(Icons.language),
+                  onChanged: (Locale? newLocale) {
+                    if (newLocale != null) {
+                      provider.setLocale(newLocale);
+                      FocusScope.of(context).unfocus(); // 포커스 제거
+                    }
+                  },
+                  dropdownColor: Colors.white,
+                  focusColor: Colors.transparent,
+                  isDense: true,
+                  style: const TextStyle(color: Colors.black, fontSize: 14),
+                  items: const [
+                    DropdownMenuItem(
+                      value: Locale('ko'),
+                      child: Text('한국어'),
+                    ),
+                    DropdownMenuItem(
+                      value: Locale('en'),
+                      child: Text('English'),
+                    ),
+                    DropdownMenuItem(
+                      value: Locale('sq'),
+                      child: Text('Shqip'),
+                    ),
+                  ],
                 ),
-                DropdownMenuItem(
-                  value: Locale('sq'),
-                  child: Text('Shqip'),
-                ),
-              ],
+              ),
             ),
             _buildWDivider(),
             const SizedBox(height: 40),
@@ -85,7 +98,6 @@ class HomeScreen extends StatelessWidget {
             _buildMenuItem(local.about, () {
               Navigator.pushNamed(context, '/about');
             }),
-
             _buildDivider(),
           ],
         ),
